@@ -39,6 +39,6 @@ public class LogoutController extends HttpServlet {
             session.invalidate();
         }
         // Chuyển hướng về trang login, sử dụng đường dẫn tuyệt đối
-        response.sendRedirect("/student_manager/login");
+        response.sendRedirect("/studentmanager/login");
     }
 }
